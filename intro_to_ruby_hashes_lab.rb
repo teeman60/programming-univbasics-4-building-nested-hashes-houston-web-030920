@@ -14,7 +14,7 @@ def monopoly_with_second_tier
   # complexity.
   base = {
 	  :railroads => {
-	    :pieces => "Southern Rail"
+	    :pieces => 4
 	  
 	}
    }
