@@ -2,7 +2,7 @@ def base_hash
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
 	base = {
-	  :name => "Taiye Salami"
+	  :railroads => "Taiye Salami"
 	  
 	}
 end
@@ -13,13 +13,11 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   base = {
-	  :name => "Taiye Salami"
+	  :railroads => {
+	    :first => "Southern Rail"
 	  
 	}
-  # {
-  #   railroads: {:first => "Southern Rail"}
-    
-  # }
+   }
 end
 
 def monopoly_with_third_tier
